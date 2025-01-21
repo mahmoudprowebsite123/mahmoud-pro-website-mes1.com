@@ -487,7 +487,7 @@ nav ul li {
 
 /* Responseve For Phones */
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     body {
         overflow-x: scroll;
         scroll-behavior: smooth;
@@ -572,29 +572,53 @@ nav ul li {
 
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .logo{
-        position: relative;
-        left: 90px;
+    .body {
+        scroll-behavior: smooth;
     }
 
-    .box5{
+    .logo {
+        left: 100px;
+    }
+
+    .box5 {
         width: 700px;
-        right: 200px;
+        right: 250px;
     }
 
-    .images123{
+    .images123 {
         right: 100px;
     }
 
-    .socbtn1{
+    .socbtn1 {
         left: 300px;
         top: 75px;
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo{
+        left: 100px;
+    }
+    
+    .box5{
+        width: 600px;
+        right: 150px;
+    }
 
-@media (min-width: 769px) {
-    body {
-        overflow: scroll;
+    .images123{
+        right: 190px;
+    }
+
+    .socbtn1{
+        width: 200px;
+        position: relative;
+        left: 300px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    body{
+        scroll-behavior: auto;
     }
 }
